@@ -72,7 +72,6 @@
                                     <th scope="col">Carro</th>
                                     <th scope="col">Data Inicial</th>
                                     <th scope="col">Data Final</th>
-                                    <th scope="col">Carro</th>
                                     <th scope="col">Descrição</th>
                                     <th scope="col">Ações</th>
                                 </tr>
