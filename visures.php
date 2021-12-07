@@ -91,7 +91,7 @@
                                         echo '<td>' . $registro['data_inicial'] . '</td>';
                                         echo '<td>' . $registro['data_final'] . '</td>';
                                         echo '<td>' . $registro['descricao'] . '</td>';
-                                        echo '<td><a href="editafunc.php?id=' . $registro['id'] . '">Editar | <a href="excluirfunc.php?id=' . $registro['id'] . '">Excluir</a></td>';
+                                        echo '<td><a href="reserva.php?id=' . $registro['id'] . '">Editar | <a href="excluires.php?id=' . $registro['id'] . '">Excluir</a></td>';
                                         echo '</tr>';
                                     }
                                     echo "</tbody>";

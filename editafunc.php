@@ -37,6 +37,15 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
     <script src="scripts/bootstrap5/js/bootstrap.min.js"></script>
     <br>
+      <center><div><h3 class= texth3><b>Reserva Cars</b></h3></div></center>
+      <center>
+      <br>
+      <a href="index.php"><button type="button" class="btn btn-primary">Pagina Inicial</button></a>
+      <a href="cadcarro.php"><button type="button" class="btn btn-primary">Cadastrar Carro</button></a>
+      <a href="cadfunc.php"><button type="button" class="btn btn-primary">Cadastrar Funcionário</button></a>
+      <a href="reserva.php"><button type="button" class="btn btn-success">Reservar Carro</button></a>
+      </center>
+    <br>
     <br>
     <div class="container">
         <div class="row">
@@ -47,8 +56,6 @@
                                     <path d="M15 14s1 0 1-1-1-4-5-4-5 3-5 4 1 1 1 1h8zm-7.978-1A.261.261 0 0 1 7 12.996c.001-.264.167-1.03.76-1.72C8.312 10.629 9.282 10 11 10c1.717 0 2.687.63 3.24 1.276.593.69.758 1.457.76 1.72l-.008.002a.274.274 0 0 1-.014.002H7.022zM11 7a2 2 0 1 0 0-4 2 2 0 0 0 0 4zm3-2a3 3 0 1 1-6 0 3 3 0 0 1 6 0zM6.936 9.28a5.88 5.88 0 0 0-1.23-.247A7.35 7.35 0 0 0 5 9c-4 0-5 3-5 4 0 .667.333 1 1 1h4.216A2.238 2.238 0 0 1 5 13c0-1.01.377-2.042 1.09-2.904.243-.294.526-.569.846-.816zM4.92 10A5.493 5.493 0 0 0 4 13H1c0-.26.164-1.03.76-1.724.545-.636 1.492-1.256 3.16-1.275zM1.5 5.5a3 3 0 1 1 6 0 3 3 0 0 1-6 0zm3-2a2 2 0 1 0 0 4 2 2 0 0 0 0-4z" />
                                 </svg>&nbsp;&nbsp;Funcionários</b></h4>
                     </div>
-                    <center><img class=imgsize src="https://intranetnow.lumis.com.br/data/files/CF/43/33/CE/F7A6A61091ACB2A68E0BF9C2/artigo__integracao-de-funcionarios__interna-01.png"></center>
-    <center>
                     <div class="card-body">
                         <?php
                         include "conecta.php";
