@@ -1,8 +1,11 @@
 <?php
-    $conn = mysqli_connect("localhost", "root", "", "reserva");
+    $conn = mysqli_connect("localhost", "root", "", "pessoa");
     mysqli_set_charset($conn, "utf8");
     if(!$conn){
-        echo "Error: Falha de conexão ao Banco de Dados MariaDB. ".PHP_EOL;
-        echo "Debugging error: ".mysqli_connect_error().PHP_EOL;
+        echo "Erro de conexão com o BD: ".mysqli_connect_error();
     }
+    
+    // else {
+    //    echo "Conexão bem sucedida!"; teste conexão
+    //}
 ?>
